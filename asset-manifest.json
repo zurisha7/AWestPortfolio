@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/awestportfolio/static/css/main.8cd845a1.css",
+    "main.js": "/awestportfolio/static/js/main.7e280640.js",
+    "static/js/787.f70568f7.chunk.js": "/awestportfolio/static/js/787.f70568f7.chunk.js",
+    "static/media/1.jpg": "/awestportfolio/static/media/1.21ac97d6118c75cc2b9f.jpg",
+    "static/media/0.jpg": "/awestportfolio/static/media/0.f35700505e14cd4210d8.jpg",
+    "static/media/IMG_1530.jpg": "/awestportfolio/static/media/IMG_1530.4fa554862e99676618b2.jpg",
+    "static/media/EternityTomorrow-Regular.ttf": "/awestportfolio/static/media/EternityTomorrow-Regular.ef4886a03e475724d709.ttf",
+    "static/media/3.jpg": "/awestportfolio/static/media/3.50bef7b8fdbc675a16e6.jpg",
+    "static/media/Horiseon.jpg": "/awestportfolio/static/media/Horiseon.f258cf79bbdf78f9d848.jpg",
+    "static/media/2.jpg": "/awestportfolio/static/media/2.fe25fdd70324122d98a0.jpg",
+    "static/media/Andrea_West_Resume.jpg": "/awestportfolio/static/media/Andrea_West_Resume.6d75479e2aff2e94eb67.jpg",
+    "static/media/Octocat.jpg": "/awestportfolio/static/media/Octocat.2444c54fd88ae684e5a7.jpg",
+    "static/media/Casta-Thin.otf": "/awestportfolio/static/media/Casta-Thin.cad6046df1a671273a7d.otf",
+    "static/media/4.jpg": "/awestportfolio/static/media/4.61abb10de30b66e331b9.jpg",
+    "index.html": "/awestportfolio/index.html",
+    "main.8cd845a1.css.map": "/awestportfolio/static/css/main.8cd845a1.css.map",
+    "main.7e280640.js.map": "/awestportfolio/static/js/main.7e280640.js.map",
+    "787.f70568f7.chunk.js.map": "/awestportfolio/static/js/787.f70568f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8cd845a1.css",
+    "static/js/main.7e280640.js"
+  ]
+}
