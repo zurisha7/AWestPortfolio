@@ -1,0 +1,123 @@
+/* custom fonts  */
+@font-face {
+  font-family: "Casta-Thin";
+  src: local("Casta-Thin"),
+    url("./fonts/Casta-Thin.otf") format("truetype");
+    
+}
+
+@font-face {
+  font-family: "EternityTomorrow-Regular";
+  src: local("EternityTomorrow-Regular"),
+  url("./fonts/EternityTomorrow-Regular.ttf");
+}
+
+
+body {
+  margin: 0;
+  color: seashell;
+  text-shadow: #372549, 5px, 10px;
+  font-family: 'Casta-Thin';
+  background: rgb(37,38,73);
+  background: radial-gradient(circle, rgba(37,38,73,1) 0%, rgba(135,173,192,1) 12%, rgba(1,1,9,1) 78%);
+}
+
+header {
+  margin: 10px;
+  font-family: "EternityTomorrow-Regular";
+  color:seashell;
+  font-size: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+a {
+  color: seashell;
+  text-decoration: none;
+  font-size: 45px;
+  margin: 15px 
+}
+
+.About {
+  display: flex; 
+  align-items: center;
+  margin: 10px;
+}
+
+h2 {
+  color: seashell;
+  font-family: 'Casta-Thin';
+  margin: 25px;
+}
+img {
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 10px 10px 10px #372549;
+}
+
+p {
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 50px;
+  align-items: center;
+  text-shadow: seashell, 6px, 5px ;
+
+}
+
+.img-thumbnail {
+  width: 10%;
+  height: 100px;
+  filter: grayscale(100%)
+}
+.modalImg {
+  width: 35%;
+  height: 300px
+}
+.resumeCloseBtn {
+  color:#372549;
+  font-size: 30px;
+}
+
+button {
+	background: var(--primary);
+	border: 0;
+	border-radius: 5px;
+	color: seashell;
+  font-family: 'Casta-Thin';
+	cursor: pointer;
+	font-size: 24px;
+	margin-bottom: 30px;
+	padding: 10px 15px;	
+}
+
+.Contact {
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+input {
+  margin: 15px;
+}
+
+textarea {
+  margin: 10px;
+}
+
+footer {
+  font-size: 20px;
+  bottom: 0;
+}
+
+.linkedIn {
+  font-size: 20px;
+}
+
+.icon {
+  width: 64px;
+  
+}
