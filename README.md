@@ -1,4 +1,4 @@
-# AWestPortfolio
+# awestportfolio
 
 ## Description
   This portfolio showcases me! The user can read a short paragraph about my interests, view some of my projects, read my resume, and send and email to contact me. 
