@@ -10,31 +10,36 @@ const ProjectList = ({ sections }) => {
         {
             name: 'Meet-Friends',
             description: 'An app to make new friends in your city',
-            url: 'https://meet-friends-bootcamp.herokuapp.com/'
+            url: 'https://meet-friends-bootcamp.herokuapp.com/',
+            github: 'https://github.com/SD-github21/meet-friends.git'
             
             
         },
         {
             name: 'Musitory',
             description: 'A music app to search for artists, albums, songs, lyrics.',
-            url: 'https://macpat83.github.io/Musitory/'
+            url: 'https://macpat83.github.io/Musitory/',
+            github: 'https://github.com/SD-github21/meet-friends.git'
           
 
         },
         {
             name: 'RunBuddy',
             description: 'A basic html and CSS app, that lets you see personal trainers and contact them for training sessions.',
-            url: 'http://zurisha7.github.io/run-buddy/'
+            url: 'http://zurisha7.github.io/run-buddy/',
+            github: 'https://github.com/zurisha7/run-buddy.git'
         },
         {
             name: 'Work-Day Scheduler',
             description: 'A place to schedule your workday!',
-            url: 'https://zurisha7.github.io/WorkDay-scheduler/'
+            url: 'https://zurisha7.github.io/WorkDay-scheduler/',
+            github: 'https://github.com/zurisha7/WorkDay-scheduler.git'
         },
         {
             name: 'NoteTaker',
             description: 'A nodeJS application that lets the user write, save, and delete notes.',
-            url: 'https://intense-brook-26087.herokuapp.com/notes'
+            url: 'https://intense-brook-26087.herokuapp.com/notes',
+            github: 'https://github.com/zurisha7/NoteTaker.git'
 
         }
     ]);

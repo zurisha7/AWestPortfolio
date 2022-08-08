@@ -2,7 +2,7 @@ import React from 'react';
 
 const ModalProject = ({ onClose, currentProject }) => {
   
-    const {name, description, url, index } = currentProject;
+    const {name, description, url, github, index } = currentProject;
 
   return (
     <div>
@@ -12,7 +12,8 @@ const ModalProject = ({ onClose, currentProject }) => {
                <h3 className="modalName">{name}</h3>
                 <img className="modalImg" src={require(`../../assets/images/${index}.jpg`)} alt={name} /> 
                 <p>{description}</p>
-                <a href={`${url}`}>{url}</a>
+                <a href={`${url}`}>{url}</a><br />
+                <a href={`${github}`}>{github}</a>
                 <button onClick={onClose} type="button">
                     Close
                 </button>
