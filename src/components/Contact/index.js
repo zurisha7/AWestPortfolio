@@ -35,7 +35,7 @@ function ContactForm () {
 return (
     <section className='Contact'>
 
-        {/* need to style this form */}
+        {/* need to style this form  */}
         <h1 className="h1Contact">Email Me!</h1>
         <form id="contact-form" onSubmit={handleSubmit}>
             <div>

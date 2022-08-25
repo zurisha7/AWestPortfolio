@@ -3,7 +3,7 @@ import ModalProject from '../ModalProject';
 
 
 
-const ProjectList = ({ sections }) => {
+const ProjectList = ({ Portfolio }) => {
     const[currentProject, setCurrentProject] = useState();
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [ projects ] = useState([
@@ -41,6 +41,12 @@ const ProjectList = ({ sections }) => {
             url: 'https://intense-brook-26087.herokuapp.com/notes',
             github: 'https://github.com/zurisha7/NoteTaker.git'
 
+        },  
+        {
+            name: "Eat Sleep Workout Repeat",
+            description: "A Workout app that let's you add food, workouts, and sleep!",
+            url: 'https://lit-plains-44922.herokuapp.com/login',
+            github: "https://github.com/zurisha7/EatSleepWorkoutRepeat.git"
         }
     ]);
   
