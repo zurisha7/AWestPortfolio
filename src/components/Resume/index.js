@@ -24,7 +24,7 @@ const Resume = () => {
 
   return (
     <div >
-      <button onClick={openModal}>Resume</button>
+      <button onClick={openModal}><img className="resumeThumb" src={require(`../../assets/images/Andrea_West_Resume.jpg`)} alt='West thumbnail' /></button>
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}

@@ -20,23 +20,29 @@ body {
   font-family: 'Casta-Thin';
   background: rgb(37,38,73);
   background: radial-gradient(circle, rgba(37,38,73,1) 0%, rgba(135,173,192,1) 12%, rgba(1,1,9,1) 78%);
+  background-size: auto;
 }
 
 header {
-  margin: 10px;
   font-family: "EternityTomorrow-Regular";
   color:seashell;
-  font-size: 45px;
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
+}
+
+.Andrea{ 
+  font-size: 60px;
+
+}
+ul {
+  list-style: none;
 }
 
 a {
   color: seashell;
   text-decoration: none;
-  font-size: 45px;
+  font-size: 35px;
   margin: 15px 
 }
 
@@ -49,7 +55,7 @@ a {
 h2 {
   color: seashell;
   font-family: 'Casta-Thin';
-  margin: 25px;
+  margin: 35px;
 }
 img {
   border-radius: 10px;
@@ -60,7 +66,7 @@ img {
 p {
   font-size: 25px;
   font-weight: bolder;
-  margin: 50px;
+  margin: 15px;
   align-items: center;
   text-shadow: seashell, 6px, 5px ;
 
@@ -78,6 +84,11 @@ p {
 .resumeCloseBtn {
   color:#372549;
   font-size: 30px;
+}
+
+.resumeThumb{
+  width: 300px;
+  
 }
 
 button {
@@ -100,17 +111,46 @@ button {
     align-content: center;
 }
 
-input {
+input, textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+label {
   margin: 15px;
+  font-size: 30px;
 }
 
-textarea {
-  margin: 10px;
+.btn {
+  border: 1px solid;
+  margin-top: 15px;
 }
 
-footer {
+ .contact {
+  border: 5px solid;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.touch { 
+  font-size: 45px;
+}
+
+.footer {
   font-size: 20px;
   bottom: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
 }
 
 .linkedIn {
@@ -118,6 +158,13 @@ footer {
 }
 
 .icon {
-  width: 64px;
-  
+  width: 32px;
+}
+
+.thanks {
+  font-size: 25px;
+  margin: 0px;
+  font-weight: bolder;
+  align-items: center;
+  text-shadow: seashell, 6px, 5px ;
 }
