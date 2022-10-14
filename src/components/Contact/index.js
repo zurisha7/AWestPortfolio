@@ -76,19 +76,19 @@ const Contact = ()=> {
                             </div>
                             <div className="form-group">
                                 <label htmlFor="message">Message:</label>
-                                <textarea name="message" placeholder="Message" defaultValue={message} onBlur={handleChange} ></textarea>
+                                <input type='text' id="message" placeholder="Message" defaultValue={message} onBlur={handleChange} />
                             </div>
                             <div className="form-group">
                                 <input type="submit" value="Send Message" className="btn btn-primary"/>
                                 <div className="submitting">{status}</div>
                             </div>
                         </form>
-                </div>
+                
                     <div className="email">
-                        <p><span>Email:</span> <a href="mailto:andreamest7@gmail.com">andreamwest7@gmail.com</a></p>
+                        <p><span>Email:</span> <a href="mailto:andreamichelewest@gmail.com">andreamichelewest@gmail.com</a></p>
                     </div>
                 </div>
-                    
+            </div>      
            {emailError && (
             <div>
                 <p className="errorMessage">{emailError}</p> </div>

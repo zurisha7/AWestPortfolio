@@ -5,9 +5,9 @@ const Home = (props) => {
 
 
 return (
-    <div>
+     <div>
         <h2>Welcome!!</h2>
-         <p>Have a look around</p>
+         <p>I'm Andrea! Have a look around!!</p>
     </div>
 )
 

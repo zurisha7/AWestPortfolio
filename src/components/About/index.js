@@ -10,9 +10,8 @@ function About () {
             <div className="About">
             <img src={andreaImage} style={{ width: "25%", height: "300px" }} alt="Andrea West" />
             <div className="aboutText">
-                <p>
-                 Andrea grew up in Pennsylvania and has been living in Texas and Virginia since. Currently, she is living in Austin, Texas and will earn her certificate in full stack development from the coding Bootcamp at UT Austin at the end of August 2022. She worked in the customer service industry for many years, then also worked as a teller at a few banks and then an armored trucking company. 
-                 After having her children, Andrea stayed home to help raise them. Now the children are older, she decided she was ready to get back into the workforce and use her creativity in the coding world. When she has free time, Andrea loves to get in the car, drive, and listen to loud music, maybe a night out watching an awesome band, or getting onstage herself and singing karaoke.
+               <p> I live near Austin, Texas and have earned my certificate in full stack web development from the University of Texas at Austin. I have worked in the customer service industry for many years, then worked as a teller in an armored trucking company, and as a hybrid administrative assistant.
+                 After having my children, I stayed at home to support my family. Now the children are older, I have decided to enter the tech world and am excited to learn and create. In my free time, I enjoying long drives with loud music, watching an awesome band live, or getting onstage myself and singing karaoke.
 
                 </p>
             </div>

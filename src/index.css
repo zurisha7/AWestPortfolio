@@ -18,9 +18,8 @@ body {
   color: seashell;
   text-shadow: #372549, 5px, 10px;
   font-family: 'Casta-Thin';
-  background: rgb(37,38,73);
-  background: radial-gradient(circle, rgba(37,38,73,1) 0%, rgba(135,173,192,1) 12%, rgba(1,1,9,1) 78%);
-  background-size: auto;
+  background-image: url("../src/assets/images/oscar-mackey-kjpnCniS3zE-unsplash.jpg");
+  background-size: 100;
 }
 
 header {
@@ -78,8 +77,8 @@ p {
   filter: grayscale(100%)
 }
 .modalImg {
-  width: 35%;
-  height: 300px
+  width: 75%;
+  height: px
 }
 .resumeCloseBtn {
   color:#372549;
@@ -88,6 +87,7 @@ p {
 
 .resumeThumb{
   width: 300px;
+  margin-left: 300px;
   
 }
 
@@ -111,6 +111,11 @@ button {
     align-content: center;
 }
 
+.contactForm {
+  height: 400px;
+  align-content: center;
+}
+
 input, textarea {
   padding: 12px;
   border: 1px solid #ccc;
@@ -132,13 +137,16 @@ label {
 }
 
  .contact {
-  border: 5px solid;
-  border-radius: 5px;
   padding: 15px;
   display: flex;
+  height: 450px;
   flex-direction: column;
   align-items: center;
-  margin: 20px;
+  margin: 20px, 20px, 50px, 20px;
+}
+
+.contactSection {
+  margin: 10px, 10px, 1000px, 10px;
 }
 
 .touch { 
@@ -147,10 +155,11 @@ label {
 
 .footer {
   font-size: 20px;
+  width: 100%;
   bottom: 0;
   position: fixed;
   display: flex;
-  justify-content: center;
+  justify-content: end;
 }
 
 .linkedIn {
@@ -168,3 +177,32 @@ label {
   align-items: center;
   text-shadow: seashell, 6px, 5px ;
 }
+
+.homeMe {
+  font-size: 25px;
+}
+
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+}
+  h1 { 
+    font-size: 20px;
+    margin-left: 50px
+  }
+  a { 
+    font-size: 12px
+  }
+  .About {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contactForm {
+    display: flex;
+  }
+
+  }
+  
+ 
