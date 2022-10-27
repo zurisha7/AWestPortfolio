@@ -23,19 +23,19 @@ function App() {
               element={<Home />}
               />
             <Route 
-              path='/About'
+              path='awestportfolio/About'
               element={<About />}
               />
             <Route
-              path='/Portfolio'
+              path='awestportfolio/Portfolio'
               element={<Portfolio />}
               />
             <Route
-              path='/Resume'
+              path='awestportfolio/Resume'
               element={<Resume />}
               />
             <Route  
-              path='/Contact' 
+              path='awestportfolio/Contact' 
               element={<Contact />}
               />
           </Routes>
