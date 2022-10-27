@@ -71,11 +71,18 @@ p {
   text-shadow: seashell, 6px, 5px ;
 }
 
+.hey {
+  width: 200px;
+  height: 200px;
+  margin-left: 550px
+}
+
 .welcome {
   font-size: 30px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  margin-left: 150px;
 
 }
 
