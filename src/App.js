@@ -19,7 +19,7 @@ function App() {
         <div id='content-wrap'>
           <Routes>
             <Route 
-              path='/awestportfolio'
+              path='/'
               element={<Home />}
               />
             <Route 

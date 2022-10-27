@@ -1,5 +1,5 @@
 import React from 'react'
-import andreaImage from "../../assets/images/IMG_1530.jpg";
+import andreaImage from "../../assets/images/Andrea2.jpg";
 
 function About () {
 
