@@ -3,8 +3,6 @@ import hey from '../../assets/images/Hey.jpg'
 
 const Home = (props) => {
 
-
-
 return (
      <section>
      <div className = "welcome">
