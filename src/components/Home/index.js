@@ -6,12 +6,12 @@ const Home = (props) => {
 return (
      <section>
      <div className = "welcome">
-        <h2>Welcome!!</h2>
-         <p>I'm Andrea! I'm a Full Stack Web Developer excited to show you what I have done! Have a look around!!</p>
-    </div>
-    <div>
+     <div>
      <img src={hey} alt="hey" className='hey'></img>
     </div>
+         <p>I'm Andrea! I'm a Full Stack Web Developer excited to show you my projects! Have a look around!!</p>
+    </div>
+    
     </section>
 )
 
