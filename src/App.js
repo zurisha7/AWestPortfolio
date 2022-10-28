@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter, BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Header from './components/Header';
 import About from './components/About';
@@ -14,7 +14,6 @@ function App() {
   return (
     
     <Router>
-      <HashRouter basename='/'>
       <Header />
       <div id='page-container'>
         <div id='content-wrap'>
@@ -43,7 +42,7 @@ function App() {
         </div>
         </div>  
          <Footer />
-         </HashRouter>
+         
       </Router> 
     
   
