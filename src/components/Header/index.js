@@ -17,16 +17,16 @@ function Header(props) {
             <nav>
             <ul>
                     <li>
-                        <a href='awestportfolio/About' onClick={() => setContactSelected(false) && setPortfolioSelected(false) && setResumeSelected(false) }> About </a>
+                        <a href='/About' onClick={() => setContactSelected(false) && setPortfolioSelected(false) && setResumeSelected(false) }> About </a>
                     </li>
                     <li className={`${portfolioSelected && 'navActive'}`}>
-                        <a href='awestportfolio/Portfolio' onClick={() => setPortfolioSelected(true)}>Portfolio</a>
+                        <a href='/Portfolio' onClick={() => setPortfolioSelected(true)}>Portfolio</a>
                     </li>
                     <li className={`${resumeSelected && 'navActive'}`}>
-                        <a href='awestportfolio/Resume' onClick={() => setResumeSelected(true)}>Resume</a>
+                        <a href='/Resume' onClick={() => setResumeSelected(true)}>Resume</a>
                     </li>                     
                     <li className={`${contactSelected && 'navActive'}`}>
-                        <a href='awestportfolio/Contact' onClick={() => setContactSelected(true)}>Contact</a>
+                        <a href='/Contact' onClick={() => setContactSelected(true)}>Contact</a>
                      </li>
                     </ul>
             </nav>
