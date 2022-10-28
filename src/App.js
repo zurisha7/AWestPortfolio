@@ -23,7 +23,7 @@ function App() {
               element={<Home />}
               />
             <Route 
-              path='awestportfolio/About'
+              path='/About'
               element={<About />}
               />
             <Route
