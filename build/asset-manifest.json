@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/awestportfolio/static/css/main.4d9884cd.css",
+    "main.js": "/awestportfolio/static/js/main.1b35a5b5.js",
+    "static/js/787.f70568f7.chunk.js": "/awestportfolio/static/js/787.f70568f7.chunk.js",
+    "static/media/1.jpg": "/awestportfolio/static/media/1.21ac97d6118c75cc2b9f.jpg",
+    "static/media/Andrea2.jpg": "/awestportfolio/static/media/Andrea2.93c865fc9da43f8fcc03.jpg",
+    "static/media/0.jpg": "/awestportfolio/static/media/0.f35700505e14cd4210d8.jpg",
+    "static/media/Hey.jpg": "/awestportfolio/static/media/Hey.82e05791805d05e8d86c.jpg",
+    "static/media/IMG_1530.jpg": "/awestportfolio/static/media/IMG_1530.4fa554862e99676618b2.jpg",
+    "static/media/ResumeAndreaWest.jpg": "/awestportfolio/static/media/ResumeAndreaWest.d6e2e55f09058f0d207a.jpg",
+    "static/media/EternityTomorrow-Regular.ttf": "/awestportfolio/static/media/EternityTomorrow-Regular.ef4886a03e475724d709.ttf",
+    "static/media/3.jpg": "/awestportfolio/static/media/3.50bef7b8fdbc675a16e6.jpg",
+    "static/media/Horiseon.jpg": "/awestportfolio/static/media/Horiseon.f258cf79bbdf78f9d848.jpg",
+    "static/media/oscar-mackey-kjpnCniS3zE-unsplash.jpg": "/awestportfolio/static/media/oscar-mackey-kjpnCniS3zE-unsplash.096b4fec525a3be9b2c4.jpg",
+    "static/media/2.jpg": "/awestportfolio/static/media/2.fe25fdd70324122d98a0.jpg",
+    "static/media/Andrea_West_Resume.jpg": "/awestportfolio/static/media/Andrea_West_Resume.6d75479e2aff2e94eb67.jpg",
+    "static/media/Octocat.jpg": "/awestportfolio/static/media/Octocat.2444c54fd88ae684e5a7.jpg",
+    "static/media/Casta-Thin.otf": "/awestportfolio/static/media/Casta-Thin.cad6046df1a671273a7d.otf",
+    "static/media/4.jpg": "/awestportfolio/static/media/4.61abb10de30b66e331b9.jpg",
+    "static/media/5.jpg": "/awestportfolio/static/media/5.bce58da425fbf46013db.jpg",
+    "index.html": "/awestportfolio/index.html",
+    "main.4d9884cd.css.map": "/awestportfolio/static/css/main.4d9884cd.css.map",
+    "main.1b35a5b5.js.map": "/awestportfolio/static/js/main.1b35a5b5.js.map",
+    "787.f70568f7.chunk.js.map": "/awestportfolio/static/js/787.f70568f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d9884cd.css",
+    "static/js/main.1b35a5b5.js"
+  ]
+}
