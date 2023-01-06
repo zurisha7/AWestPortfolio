@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Header from './components/Header';
 import About from './components/About';
@@ -13,29 +13,33 @@ function App() {
 
   return (
    
-      <Router>
-        
+       <Router>
       <Header />
       <div id='page-container'>
         <div id='content-wrap'>
         <Routes>
             <Route 
+              exact
               path='/'
               element={<Home />}
               />
             <Route 
+              exact
               path='/About'
               element={<About />}
               />
             <Route
+              exact
               path='/Portfolio'
               element={<Portfolio />}
               />
             <Route
+              exact
               path='/Resume'
               element={<Resume />}
               />
-            <Route  
+            <Route
+              exact  
               path='/Contact' 
               element={<Contact />}
               />
@@ -44,7 +48,7 @@ function App() {
         </div>  
          <Footer />
         
-    </Router>
+  </Router>
   
 
   );

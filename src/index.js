@@ -5,9 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './fonts/Casta-Thin.otf'
 
+
 ReactDOM.render(
   <React.StrictMode>
+    
     <App />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
