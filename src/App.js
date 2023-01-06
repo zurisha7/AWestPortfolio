@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Header from './components/Header';
 import About from './components/About';
@@ -20,15 +20,15 @@ function App() {
         <div id='content-wrap'>
         <Routes>
             <Route 
-              path='/gh-pages-url'
+              path='/'
               element={<Home />}
               />
             <Route 
-              path='/gh-pages-url/About'
+              path='/About'
               element={<About />}
               />
             <Route
-              path='/gh-pages-url/Portfolio'
+              path='/Portfolio'
               element={<Portfolio />}
               />
             <Route
