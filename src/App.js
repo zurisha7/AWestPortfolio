@@ -20,15 +20,15 @@ function App() {
         <div id='content-wrap'>
         <Routes>
             <Route 
-              path='/'
+              path='/gh-pages-url'
               element={<Home />}
               />
             <Route 
-              path='/About'
+              path='/gh-pages-url/About'
               element={<About />}
               />
             <Route
-              path='/Portfolio'
+              path='/gh-pages-url/Portfolio'
               element={<Portfolio />}
               />
             <Route
