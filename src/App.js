@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import {  Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Header from './components/Header';
 import About from './components/About';
@@ -13,14 +13,15 @@ function App() {
 
   return (
    
-       <Router>
-      <Header />
+   <section>
+    
+            <Header />
       <div id='page-container'>
         <div id='content-wrap'>
         <Routes>
             <Route 
               exact
-              path='/'
+              path='/awestportfolio'
               element={<Home />}
               />
             <Route 
@@ -48,7 +49,7 @@ function App() {
         </div>  
          <Footer />
         
-  </Router>
+ </section>
   
 
   );
