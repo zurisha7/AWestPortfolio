@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/awestportfolio/static/css/main.4d9884cd.css",
-    "main.js": "/awestportfolio/static/js/main.9360fdfe.js",
+    "main.js": "/awestportfolio/static/js/main.37238ba6.js",
     "static/js/787.f70568f7.chunk.js": "/awestportfolio/static/js/787.f70568f7.chunk.js",
     "static/media/1.jpg": "/awestportfolio/static/media/1.21ac97d6118c75cc2b9f.jpg",
     "static/media/Andrea2.jpg": "/awestportfolio/static/media/Andrea2.93c865fc9da43f8fcc03.jpg",
@@ -21,11 +21,11 @@
     "static/media/5.jpg": "/awestportfolio/static/media/5.bce58da425fbf46013db.jpg",
     "index.html": "/awestportfolio/index.html",
     "main.4d9884cd.css.map": "/awestportfolio/static/css/main.4d9884cd.css.map",
-    "main.9360fdfe.js.map": "/awestportfolio/static/js/main.9360fdfe.js.map",
+    "main.37238ba6.js.map": "/awestportfolio/static/js/main.37238ba6.js.map",
     "787.f70568f7.chunk.js.map": "/awestportfolio/static/js/787.f70568f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d9884cd.css",
-    "static/js/main.9360fdfe.js"
+    "static/js/main.37238ba6.js"
   ]
 }
