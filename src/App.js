@@ -1,6 +1,7 @@
-import React from 'react';
-import {  Routes, Route } from 'react-router-dom';
+import React, {useState} from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
+import Layout from './components/Layout';
 import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -11,45 +12,44 @@ import Footer from './components/Footer';
 
 function App() {
 
+ 
   return (
    
-   <section>
-    
-            <Header />
+   <>    
+            <Header/>
       <div id='page-container'>
         <div id='content-wrap'>
         <Routes>
             <Route 
-              exact
-              path='/awestportfolio'
-              element={<Home />}
+              path='/'
+              element={<Layout />}
               />
+              <Route index element={<Home />}/>
             <Route 
-              exact
               path='/About'
               element={<About />}
               />
             <Route
-              exact
               path='/Portfolio'
               element={<Portfolio />}
               />
             <Route
-              exact
               path='/Resume'
               element={<Resume />}
               />
             <Route
-              exact  
               path='/Contact' 
               element={<Contact />}
               />
+            <Route path="*" element={<Home/>} />
           </Routes>
+          
         </div>
-        </div>  
+        </div> 
+       
          <Footer />
-        
- </section>
+         </> 
+ 
   
 
   );

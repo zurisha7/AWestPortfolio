@@ -1,32 +1,27 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 function Header(props) {
-    const {
-        portfolioSelected,
-        setPortfolioSelected,
-        resumeSelected,
-        setResumeSelected,
-        contactSelected,
-        setContactSelected
-    } = props;
+    
+    
 
     return (
         <header className="header">
-                <a href='/awestportfolio' className="Andrea">Andrea West</a>
+                <Link to='/' className="Andrea">Andrea West</Link>
             <nav>
             <ul>
                     <li>
-                        <a href='/About' onClick={() => setContactSelected(false) && setPortfolioSelected(false) && setResumeSelected(false) }> About </a>
+                        <Link to='/About'> About </Link>
                     </li>
-                    <li className={`${portfolioSelected && 'navActive'}`}>
-                        <a href='/Portfolio' onClick={() => setPortfolioSelected(true)}>Portfolio</a>
+                    <li>
+                        <Link to='/Portfolio'>Portfolio</Link>
                     </li>
-                    <li className={`${resumeSelected && 'navActive'}`}>
-                        <a href='/Resume' onClick={() => setResumeSelected(true)}>Resume</a>
+                    <li>
+                        <Link to='/Resume'>Resume</Link>
                     </li>                     
-                    <li className={`${contactSelected && 'navActive'}`}>
-                        <a href='/Contact' onClick={() => setContactSelected(true)}>Contact</a>
+                    <li>
+                        <Link to='/Contact'>Contact</Link>
                      </li>
                     </ul>
             </nav>
