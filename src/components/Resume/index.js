@@ -24,6 +24,7 @@ const Resume = () => {
 
   return (
     <div >
+  
       <button onClick={openModal}><img className="resumeThumb" src={require(`../../assets/images/ResumeAndreaWest.jpg`)} alt='West thumbnail' /></button>
       <Modal
         isOpen={modalIsOpen}
@@ -31,11 +32,12 @@ const Resume = () => {
         contentLabel="Resume"
         classname='resumeModal'
       >
-        
+            <div className="modalBackdrop" onClick={closeModal}></div>
         <button className='resumeCloseBtn' onClick={closeModal}>Close</button>
         <img src={require('../../assets/images/ResumeAndreaWest.jpg')} alt="West Resume" />
       </Modal>
     </div>
+   
   );
   }
 

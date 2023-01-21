@@ -71,19 +71,38 @@ p {
   text-shadow: seashell, 6px, 5px ;
 }
 
-.hey {
-  width: 200px;
-  height: 200px;
-  margin-left: 500px
-}
-
-.welcome {
+.greeting {
   font-size: 30px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   margin-left: 150px;
-
+}
+ 
+.welcome { 
+  position: relative;
+  font-size: 6em;
+  color: #222;
+}
+.welcome::before {
+  content: attr(data-text);
+  position: absolute;
+  color: #fff;
+  width: 300px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: animate 8s linear infinite;
+  filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 20px #fff);
+}
+@keyframes animate {
+  0%,10%,100%
+  {
+    width: 0;
+  }
+  70%, 90%
+  {
+    width: 100%;
+  }
 }
 
 .img-thumbnail {
@@ -92,12 +111,22 @@ p {
   filter: grayscale(100%)
 }
 .modalImg {
+  position: relative;
   width: 75%;
-  height: px
+  height: 1000px
+}
+
+.modalBackdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100vw;
+
 }
 .resumeCloseBtn {
   color:#372549;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .resumeThumb{
@@ -171,10 +200,13 @@ label {
 .footer {
   font-size: 20px;
   width: 100%;
-  bottom: 0;
+  height: 40px;
+  bottom: 50px;
+  right: 10px;
   position: fixed;
   display: flex;
   justify-content: flex-end;
+  
 }
 
 .linkedIn {
@@ -224,11 +256,13 @@ label {
     flex-wrap: nowrap;
     margin: 0px 50px 50px 10px
     }
-  
+     
+    .resumeThumb {
+      margin-left: 20px;
+    }
+    .footer {
+      bottom: 0px;   
+     }
 
-  .hey {
-    margin-left:20px
-
-  }
   } 
   
