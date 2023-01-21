@@ -256,6 +256,10 @@ label {
     flex-wrap: nowrap;
     margin: 0px 50px 50px 10px
     }
+
+    .touch {
+      font-size: 50px;
+    }
      
     .resumeThumb {
       margin-left: 20px;
