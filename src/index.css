@@ -84,7 +84,7 @@ p {
   font-size: 6em;
   color: #222;
 }
-.welcome::before {
+.welcome, .touch::before {
   content: attr(data-text);
   position: absolute;
   color: #fff;
@@ -194,7 +194,7 @@ label {
 }
 
 .touch { 
-  font-size: 45px;
+  font-size: 100px;
 }
 
 .footer {

@@ -63,7 +63,7 @@ const Contact = ()=> {
        <section className="contactform">
             <div className="contact">
                 <div className="contactSection">
-                    <h2 className="touch">Get in touch!!</h2>                    
+                    <h2 className="touch" data-text='Get in touch!!'>Get in touch!!</h2>                    
                         {/* <form method="POST" id="contactForm" onSubmit={handleSubmit}>
                             <div className="form-group">
                                 <label htmlFor="name">Name:</label>
